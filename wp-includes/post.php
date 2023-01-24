@@ -1004,7 +1004,7 @@ function get_post( $post = null, $output = OBJECT, $filter = 'raw' ) {
 			$_post = WP_Post::get_instance( $post->ID );
 		}
 	} else {
-		$_post = WP_Post::get_instance( $post );
+		$_post = WP_Post::get_instance( (int) $post );
 	}
 
 	if ( ! $_post ) {

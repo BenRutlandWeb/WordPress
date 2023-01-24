@@ -265,7 +265,7 @@ class WP_Post
      *
      * @param WP_Post|object $post Post object.
      */
-    public function __construct($post)
+    public function __construct(object $post)
     {
         foreach (get_object_vars($post) as $key => $value) {
             $this->$key = $value;
