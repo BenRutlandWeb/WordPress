@@ -1,0 +1,16 @@
+{
+    "name": "brw/wordpress",
+    "description": "A WordPress Fork",
+    "authors": [
+        {
+            "name": "Ben Rutland",
+            "email": "ben@10degrees.uk"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "": "app/"
+        }
+    }
+}
