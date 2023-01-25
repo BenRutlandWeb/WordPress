@@ -9,6 +9,7 @@
  * @package WordPress
  */
 
+
 /**
  * Stores the location of the WordPress directory of functions, classes, and core content.
  *
