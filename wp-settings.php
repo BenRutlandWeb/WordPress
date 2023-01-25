@@ -166,7 +166,6 @@ require ABSPATH . WPINC . '/class-wp-walker.php';
 require ABSPATH . WPINC . '/class-wp-ajax-response.php';
 require ABSPATH . WPINC . '/capabilities.php';
 require ABSPATH . WPINC . '/class-wp-roles.php';
-require ABSPATH . WPINC . '/class-wp-role.php';
 require ABSPATH . WPINC . '/class-wp-query.php';
 require ABSPATH . WPINC . '/query.php';
 require ABSPATH . WPINC . '/class-wp-date-query.php';

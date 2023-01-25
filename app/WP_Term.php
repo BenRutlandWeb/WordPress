@@ -115,7 +115,7 @@ class WP_Term
      *                                there's insufficient data to distinguish which term is intended.
      *                                False for other failures.
      */
-    public static function get_instance(int $term_id, ?string $taxonomy = null): WP_Term|WP_Error|false
+    public static function get_instance(int $term_id, ?string $taxonomy = null): static|WP_Error|false
     {
         global $wpdb;
 
