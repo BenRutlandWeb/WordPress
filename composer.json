@@ -7,10 +7,30 @@
             "email": "ben@10degrees.uk"
         }
     ],
-    "require": {},
+    "require": {
+        "wpackagist-plugin/wordpress-seo": "^20.0",
+        "wpackagist-plugin/svg-support": "^2.5",
+        "wpackagist-theme/twentytwentyone": "^1.7",
+        "vlucas/phpdotenv": "^5.5"
+    },
     "autoload": {
         "psr-4": {
             "": "app/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
         }
     }
 }

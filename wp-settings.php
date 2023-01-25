@@ -8,7 +8,6 @@
  *
  * @package WordPress
  */
-require_once ABSPATH . '/vendor/autoload.php';
 
 /**
  * Stores the location of the WordPress directory of functions, classes, and core content.
