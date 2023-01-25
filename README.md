@@ -2,6 +2,18 @@
 
 Semantic Personal Publishing Platform
 
+---
+
+## Introduction to the fork
+
+This WordPress fork is to bring modern PHP practices to the codebase. Using composer for autoloading, plugin and theme installs, dotenv for environment variables, and namespacing and type-hinting for PHP classes.
+
+The work is iterative, meaning nothing should break whilst the development is ongoing. Classes can be moved to the `app` directory without affecting other aspects of the install.
+
+Eventually, I imagine less reliance on helper functions, globals and `final` classes, alloweing for better, faster and nicer PHP development.
+
+---
+
 ## First Things First
 
 Welcome. WordPress is a very special project to me. Every developer and contributor adds something unique to the mix, and together we create something beautiful that I am proud to be a part of. Thousands of hours have gone into WordPress, and we are dedicated to making it better every day. Thank you for making it part of your world.
